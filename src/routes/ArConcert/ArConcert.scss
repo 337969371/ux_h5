@@ -1,0 +1,196 @@
+.kol{
+  background-image: url("../../static/kol/bg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  .kol-video{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #FFFFFF;
+    position: relative;
+    .ar-top-1{
+      position: absolute;
+      top: 15%;
+      left: 12%;
+      width: 90%;
+    }
+    img{
+      width: 100%;
+    }
+    .taiyi_new1{
+      position: absolute;
+      top: 22%;
+      left: 18%;
+      width: 60%;
+    }
+    .taiyi_new1-btn{
+      width: 160px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 20px;
+      background: #fff;
+      font-size: 15px;
+      color: #231815;
+      border: none;
+      outline-style: none;
+      font-family: HYQiHei-80S;
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      margin-left: -80px;
+    }
+  }
+  .ar-concert-1{
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+    padding-bottom: 10%;
+    .title{
+      text-align: center;
+      font-size: 24px;
+      font-family: "HYQiHei-80S";
+      padding-bottom: 5%;
+    }
+    .desc{
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+      padding-bottom: 10%;
+    }
+    button{
+      border: none;
+      height: 35px;
+      margin-top: 5%;
+      img{
+        height: 100%;
+      }
+      background: none;
+    }
+  }
+  .ar-concert-main{
+    width: 100%;
+    .content-1{
+      width: 100%;
+      padding-top: 20px;
+      img{
+        width: 100%;
+      }
+    }
+    .content-videos{
+      position: relative;
+      padding-bottom: 15%;
+      height: 250px;
+      img{
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        position: absolute;
+        z-index: 10;
+        height: 200px;
+      }
+      video{
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 200px;
+        margin-left: 5%;
+        margin-top: 5%;
+        z-index: -1;
+      }
+    }
+    .content-2{
+      text-align: center;
+      padding-top: 20%;
+      padding-bottom:  20%;
+      position: relative;
+      .bg{
+        width: 86%;
+      }
+      .slider{
+        position: absolute;
+        top: 28%;
+        width: 72%;
+        left: 14%;
+        img{
+          width: 100%;
+        }
+        .slick-arrow{
+          display: none !important;
+        }
+        .get-btn{
+          height: 40px;
+          font-size: 16px;
+          color: #FFFFFF;
+          line-height: 40px;
+          background: #000000;
+          text-align: center;
+          border-radius: 20px;
+          padding: 0 20px;
+          border: none;
+          margin-top: 50px;
+        }
+        .slider-item{
+          height: 280px;
+        }
+      }
+      .slick-dots{
+        bottom: -25px;
+      }
+      .slick-dots li button:before{
+        font-size: 10px;
+      }
+    }
+    .content-3{
+      padding-left: 11%;
+      padding-top: 18%;
+      padding-bottom: 20%;
+      .title{
+        width: 82%;
+      }
+      .main{
+        margin-top: 20px;
+        height: 320px;
+        display: flex;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        div{
+          width: 30px;
+          height: 100%;
+          display: inline-table;
+        }
+        img{
+          height: 100%;
+          margin-right: 15px;
+        }
+      }
+      .main::-webkit-scrollbar {
+        display: none; /* Chrome Safari */
+      }
+    }
+    .content-4{
+      position: relative;
+      img{
+        width: 100%;
+        margin-top: 10px;
+      }
+      .main{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        font-size: 30px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: HYQiHei-60S;
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+.my{
+  background: #101150;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  .my-info{
+    .my-info-header{
+      padding: 30px 30px;
+      img{
+        width: 13px;
+      }
+    }
+    .my-info-title{
+      text-align: center;
+      padding-bottom: 70px;
+      font-size: 24px;
+      color: #D6FF7F;
+    }
+  }
+  .my-chest-body{
+    flex: 1;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    .my-body-content{
+      padding: 20px 30px;
+    }
+    .my-chest-item{
+      height: 70px;
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+      .left{
+        height: 100%;
+        width: 100px;
+        border-radius: 10px;
+        overflow: hidden;
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit:cover;
+        }
+      }
+      .right{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 5px;
+        .title{
+          display: flex;
+          justify-content: space-between;
+          h4{
+            font-size: 16px;
+            overflow: hidden;
+            font-weight: 400;
+          }
+          button{
+            width: 64px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            font-size: 14px;
+            outline:none;
+          }
+          .get-gift{
+            border: none;
+            background: #101150;
+            color: #D6FE7F;
+          }
+          .received-gift{
+            border: 1px solid #CBCCD4;
+            color: #CBCCD4;
+            background: #FFFFFF;
+          }
+          .overdue-gift{
+            border: 1px solid #7C7C7C;
+            color: #7C7C7C;
+            background: #FFFFFF;
+          }
+        }
+
+        .my-chest-item-info{
+          display: flex;
+          font-size: 12px;
+          justify-content: space-between;
+          .time{
+            color: #CBCCD4;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .my-chest-wallpaper-item{
+      margin-top: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      img{
+        width: 100%;
+      }
+      .my-chest-wallpaper-info{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        overflow: hidden;
+        padding: 30px;
+        color: #FFFFFF;
+        .title{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.am-tabs-default-bar-bottom .am-tabs-default-bar-content, .am-tabs-default-bar-top .am-tabs-default-bar-content{
+  width: 100%;
+}
+.am-modal-button-group-h:before{
+  background-color: #ffffff !important;
+}
+.am-modal-button-group-h .am-modal-button:last-child:before{
+  background-color: #ffffff !important;
+}
+.am-modal-transparent .am-modal-content{
+  border-radius: 7px;
+  padding: 30px 15px;
+}
+.am-modal-button-group-h{
+  justify-content: space-between;
+}
+.am-modal-alert-content, .am-modal-propmt-content{
+  padding-bottom: 15px;
+}
+.am-modal-button-group-v{
+  display: flex;
+  justify-content: center;
+}
+.posterShare{
+  .am-modal-content{
+    padding: 0;
+    background-color:rgba(0,0,0,0);
+    border-radius: 0;
+    .am-modal-body{
+      padding: 0;
+      overflow: hidden;
+    }
+    img{
+      width: 100%;
+    }
+    .poster-hint{
+      font-size:16px;
+      font-weight:normal;
+      line-height:20px;
+      color:rgba(255,255,255,1);
+      padding-top: 20px;
+    }
+  }
+
+}
+.myChest{
+  background: #FFFFFF !important;
+  .myChest-header{
+    padding: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: HYQiHei-40S;
+  }
+  .my-chest-body{
+    .my-chest-body-main{
+      padding: 15px;
+      padding-top: 0;
+    }
+  }
+}

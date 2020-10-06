@@ -1,0 +1,64 @@
+.my{
+  background: #101150;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  .my-info{
+    .my-info-header{
+      padding: 30px 30px;
+      img{
+        width: 13px;
+      }
+    }
+    .my-info-title{
+      text-align: center;
+      padding-bottom: 70px;
+      font-size: 24px;
+      color: #D6FF7F;
+    }
+  }
+  .my-id-body{
+    flex: 1;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    .my-id-history-body{
+      padding: 20px;
+      .my-id-history-item{
+        border-bottom: 1px solid #d7d7d7;
+        padding: 10px 0;
+        .title{
+          font-size: 14px;
+        }
+        .info{
+          display: flex;
+          justify-content: space-between;
+          .time{
+            color: #666666;
+            font-size: 12px;
+            margin-top: 5px;
+          }
+          .add{
+            color: green;
+          }
+          .subtract{
+            color: red;
+          }
+        }
+      }
+    }
+
+  }
+}
+.am-tabs-default-bar-bottom .am-tabs-default-bar-content, .am-tabs-default-bar-top .am-tabs-default-bar-content{
+  width: 100%;
+}
+
+@media(min-height:750px){
+  .my .my-body .my-body-content .my-menu{
+    padding-bottom: 20%;
+  }
+
+}

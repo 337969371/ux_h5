@@ -1,0 +1,129 @@
+.experience{
+  img{
+    width: 100%;
+  }
+  .header-menu{
+    display: flex;
+    color:white;
+    font-size: 18px;
+    .item{
+      padding: 2px 12px;
+      a{
+        color: white;
+      }
+    }
+    .active{
+      font-family: "HYQiHei-80S";
+      .line{
+        width: 100%;
+        height: 2px;
+        background: white;
+      }
+    }
+  }
+  .main{
+    width: 100%;
+    padding: 50px 15px;
+    .accordion-box{
+      margin-top: 15px;
+      border: 1px solid #808080;
+    }
+  }
+  .title-box{
+    padding: 15px;
+  }
+  .footer-img{
+    position: relative;
+    margin-bottom: 15px;
+    .footer-img-box{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      .title{
+        font-size: 28px;
+        font-family: "HYQiHei-80S";
+        color: white;
+      }
+      .desc{
+        color: white;
+        font-size: 24px;
+        font-family: "HYQiHei-40S";
+      }
+    }
+  }
+}
+.am-accordion .am-accordion-item .am-accordion-header{
+  height: auto;
+  padding: 0;
+}
+html:not([data-scale]) .am-accordion:before{
+  display: none;
+}
+html:not([data-scale]) .am-accordion .am-accordion-item .am-accordion-header:after{
+  display: none;
+}
+html:not([data-scale]) .am-accordion .am-accordion-item .am-accordion-content .am-accordion-content-box:after{
+  display: none;
+}
+.am-accordion .am-accordion-item .am-accordion-header i{
+  width: 25px;
+  height: 25px;
+  top: 45px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAgCAYAAABO6BuSAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVRYhdXXUQ3CQAwG4B8MMAlImARQAA4AJ0gAB5OAhOFgEiYBFJQc6RJexvW29nZtcg8k9O7/wqVjKyJCptoCOPKq+HMHoAfw4GVfAZxhXSleHRHV1lmssRURtQLsUC8iOltmsr7S4ZoeJvRdADQGeUzBIfBpRv8eQKuY51tr7Q255mLBt6NWS8RlAdbAhtrwL6yK1gZLsU8AdwDvyPf00YoTsBFO4uanp+bJLJneKo+sJbGLoJfGZkeXgM2KLgWbDW2N7fjvZcrepujSsMPaCc9IRqcGOWfApp6VhC4Vm3pmLz2zZKzJ2aVj1TN4wKpm8YJVy+QJq5LNG3Z2Ro/YWVmnbCB+5pWITm1UexFfCg0GeMUO6yZFDw2xF4KSsUkGSYMHrNgQa/CEFRn+NXjERg1jDWEIeMWOG4jwAYAxGpHw//XVAAAAAElFTkSuQmCC");
+  transform: rotate(180deg);
+}
+.am-accordion .am-accordion-item .am-accordion-header[aria-expanded~=true] i{
+  transform: rotate(360deg);
+}
+.my-accordion-main{
+  font-size: 14px;
+  padding: 10px 5px;
+  .my-accordion-title{
+    font-family: "HYQiHei-80S";
+  }
+  .m-t-20{
+    margin-top: 20px;
+  }
+  .my-accordion-center{
+    padding-top: 10px;
+    text-align: center;
+  }
+  .video-box{
+    padding-top: 10px;
+    column-count: 3;
+    .item{
+      text-align: center;
+      padding-bottom: 20px;
+      .item-img{
+        position: relative;
+        img{
+          width: 100%;
+        }
+        video{
+          position: absolute;
+          z-index: -1;
+          width: 100%;
+          left: 0;
+          top: 0;
+        }
+      }
+      .text{
+        font-size: 12px;
+        padding-top: 3px;
+      }
+
+
+    }
+  }
+  .hide-panel{
+    margin-top: 20px;
+    text-align: center;
+    img{
+      width: 20px;
+      margin-top: 8px;
+    }
+
+  }
+}

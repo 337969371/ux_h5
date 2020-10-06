@@ -1,0 +1,63 @@
+.warm-up{
+  background: #ffffff;
+  .warm-up-item{
+    margin-bottom: 20px;
+    position: relative;
+    img{
+      width: 100%;
+    }
+    .link{
+      display: inline-block;
+      width: 30%;
+      padding: 1%;
+      text-align: center;
+      background: #0e80d2;
+      margin-right: 10px;
+      opacity: 0;
+    }
+    .btn1{
+      position: absolute;
+      bottom: 8.2%;
+      left: 8%;
+    }
+    .btn2{
+      position: absolute;
+      bottom: 8.2%;
+      right: 3.5%;
+    }
+    .btn3{
+      position: absolute;
+      bottom: 9.2%;
+      left: 13%;
+    }
+    .btn4{
+      position: absolute;
+      bottom: 5.2%;
+      left: 14%;
+    }
+    .btn5{
+      position: absolute;
+      bottom: 5.2%;
+      left: 13%;
+    }
+  }
+}
+.warm-up-help-text{
+  color: #000000;
+  text-align: left;
+  .title{
+    text-align: center;
+    font-size: 16px;
+    font-family: "HYQiHei-80S";
+  }
+  .item-title{
+    margin-top: 10px;
+    font-family: "HYQiHei-60S";
+    padding: 5px 0;
+  }
+  .hint{
+    margin-top: 10px;
+    color: #888888;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,92 @@
+@keyframes img_animate {
+  0% {
+    transform:translateX(0);
+    -ms-transform:translateX(0); /* IE 9 */
+    -webkit-transform:translateX(0); /* Safari and Chrome */
+  }
+  50% {
+    transform:translateX(-380px);
+    -ms-transform:translateX(-380px); /* IE 9 */
+    -webkit-transform:translateX(-380px); /* Safari and Chrome */
+  }
+  100% {
+    transform:translateX(0px);
+    -ms-transform:translateX(0px); /* IE 9 */
+    -webkit-transform:translateX(0px); /* Safari and Chrome */
+  }
+}
+.id4-campaign{
+  padding-left: 0;
+  padding-right: 0;
+  
+  .heed{
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    img{
+      width: 100%;
+    }
+  }
+  .heed::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+  .container-1{
+    color: #030303;
+    text-align: center;
+    .title{
+      color: #030303;
+      font-size: 30px;
+      padding-top: 60px;
+      padding-bottom: 30px;
+      font-family: "VWHeadWeb-Bold";
+    }
+    .text{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .foot{
+      margin-top: 100px;
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-align: left;
+      padding: 0 8%;
+      span{
+        font-family: "HYQiHei-80S";
+      }
+    }
+  }
+  .container-2{
+    height: 420px;
+    width: 100%;
+    .box{
+      height: 420px;
+      width: 100%;
+      overflow-x: scroll;
+      scrollbar-width: none;
+      img{
+        height: 100%;
+        position: relative;
+        animation: img_animate 6s infinite;
+        animation-iteration-count:1;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+    }
+    .box::-webkit-scrollbar {
+      display: none; /* Chrome Safari */
+    }
+  }
+
+  .container-3{
+    font-size: 24px;
+    text-align: left;
+    line-height: 34px;
+    padding: 8%;
+    .bold{
+      font-family: "VWHeadWeb-Bold";
+    }
+    .s80{
+      font-family: "HYQiHei-80S";
+    }
+  }
+}

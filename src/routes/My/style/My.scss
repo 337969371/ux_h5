@@ -1,0 +1,185 @@
+.my{
+  background: #101150;
+  .my-info-main{
+    padding-bottom: 40px;
+    .my-body-head{
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      text-align: center;
+      height: 244px;
+      color: #FFFFFF;
+      .my-body-head-login{
+        line-height: 244px;
+        font-size: 20px;
+      }
+      .my-body-head-portrait-box{
+        display: inline-block;
+        width: 118px;
+        height: 118px;
+        border-radius: 60px;
+        position: relative;
+        .my-body-head-portrait-icon{
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+      .my-body-head-portrait{
+        width: 114px;
+        height: 114px;
+        border-radius: 57px;
+        margin-top: 2px;
+      }
+      .my-body-head-name{
+        font-size: 32px;
+        font-weight:400;
+        color: #D6FF7F;
+        margin-top: 15px;
+        font-family:'VW_Head-Regular';
+      }
+      .my-body-head-id{
+        font-size: 24px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        font-family: 'VWHead-Light';
+      }
+      .my-body-head-praise{
+        font-size: 14px;
+        img{
+          width: 15px;
+          height: 13px;
+          margin-right: 10px;
+          position: relative;
+          top: -1px;
+
+        }
+      }
+
+    }
+  }
+  .my-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    .my-header-logo{
+      height: 23px;
+    }
+    .my-header-search{
+      height: 23px;
+    }
+  }
+  .my-body{
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    .my-body-content{
+      padding-bottom: 60px;
+      .my-menu{
+        font-size: 16px;
+        color: #000000;
+        padding: 10px 20px;
+        li{
+          display: flex;
+          justify-content: space-between;
+          background: #F2F2F9;
+          border-radius: 8px;
+          margin: 20px 0;
+          height: 42px;
+          padding: 0 15px;
+          line-height: 42px;
+          .my-menu-icon{
+            width: 19px;
+            margin-right: 12px;
+            position: relative;
+            top: -1px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(min-height:750px){
+  .my .my-body{
+    padding-bottom: 150px;
+  }
+}
+.question-modal{
+  .title{
+    font-size: 20px;
+    font-family: "HYQiHei-80S";
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .content{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    .icon{
+      height: 42px;
+      width: 42px;
+      background: #D6FF7F;
+      border-radius: 21px;
+      font-size: 22px;
+      font-family: "HYQiHei-60S";
+      color: #101150;
+      line-height: 42px;
+      text-align: center;
+    }
+    .text{
+      width: 180px;
+      text-align: left;
+      padding-left: 10px;
+      color: #000;
+      font-size: 14px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+  }
+  .answer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .item{
+      width: 90%;
+      margin: auto;
+      height: 30px;
+      line-height: 28px;
+      min-width: 120px;
+      border: 1px solid #101150;
+      text-align: center;
+      font-size: 14px;
+      color: #070707;
+      font-family: "VW_Head-Regular";
+      border-radius: 15px;
+      margin-bottom: 5px;
+    }
+    .active{
+      .item{
+        background: #101150;
+        color: #FFFFFF;
+        border: none;
+      }
+    }
+  }
+  .foot{
+    text-align: center;
+    .btn{
+      height: 40px;
+      text-align: center;
+      width: 90%;
+      background: #101150;
+      color: #D6FF7F;
+      font-size: 16px;
+      border-radius: 20px;
+      font-family: "HYQiHei-60S";
+    }
+  }
+}

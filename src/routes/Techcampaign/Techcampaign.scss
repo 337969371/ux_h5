@@ -1,0 +1,64 @@
+.tech-campaign{
+  img{
+    width: 100%;
+  }
+  .header-video{
+    position: relative;
+    video{
+      position: absolute;
+      z-index: -1;
+      top:0;
+      left: 0;
+    }
+  }
+  .design-right{
+    position: relative;
+    .more{
+      width: 120px;
+      position: absolute;
+      z-index: 2;
+      right: 24%;
+      top: 43%;
+    }
+  }
+  .design-left{
+    position: relative;
+    .more{
+      width: 120px;
+      position: absolute;
+      z-index: 2;
+      left: 24%;
+      top: 43%;
+    }
+  }
+  .m-t-20{
+    margin-top: 20px;
+  }
+
+  .img-footer1{
+    margin-top: 90px;
+  }
+  .img-footer-item{
+    margin-bottom: 10px;
+  }
+  .img-footer{
+    position: relative;
+    margin-bottom: 30px;
+    .text{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      img{
+        width: 250px;
+      }
+    }
+  }
+}

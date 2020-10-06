@@ -1,0 +1,75 @@
+.my{
+  background: #101150;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  .my-info{
+    .my-info-header{
+      padding: 30px 30px;
+      img{
+        width: 13px;
+      }
+    }
+    .my-info-title{
+      text-align: center;
+      padding-bottom: 70px;
+      font-size: 24px;
+      color: #D6FF7F;
+    }
+  }
+  .my-body{
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    //margin-top: -20px;
+    .my-body-content{
+      .my-menu{
+        font-size: 16px;
+        color: #000000;
+        padding: 10px 20px;
+        li{
+          display: flex;
+          justify-content: space-between;
+          background: #F2F2F9;
+          border-radius: 8px;
+          margin: 20px 0;
+          height: 42px;
+          padding: 0 15px;
+          line-height: 42px;
+          .my-menu-icon{
+            width: 19px;
+            margin-right: 12px;
+            position: relative;
+            top: -2px;
+          }
+          .my-menu-sex{
+            color: #7C7C7C;
+          }
+          .my-menu-head-img{
+            width: 33px;
+            height: 33px;
+            border-radius: 17px;
+          }
+          .address-item-text{
+            max-width: 80%;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+  .my-info-body{
+    padding-bottom: 130px;
+  }
+}
+
+@media(min-height:750px){
+  .my .my-body .my-body-content .my-menu{
+    padding-bottom: 20%;
+  }
+
+}

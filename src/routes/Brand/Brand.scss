@@ -1,0 +1,146 @@
+img{
+  padding: 0;
+  margin: 0;
+}
+.brand{
+  width: 100%;
+  .brandMenu{
+    .brandMenuContent{
+      .brandMenuContent2{
+        font-family: "HYQiHei-60S";
+        img{
+          width: auto;
+          margin-top: -3px;
+        }
+      }
+    }
+  }
+  .more{
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 52px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .brand-title-box{
+    text-align: center;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .brand-title{
+      font-size: 28px;
+      font-family: "VWHeadWeb-Bold";
+    }
+    .brand-title-btn{
+      margin-top: 28px;
+      img{
+        height: 32px;
+      }
+    }
+  }
+}
+.brandBlock{
+  width: 100%;
+  position: relative;
+  video{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  img{
+    width: 100%;
+  }
+  .brandBlockContent{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    color: #FFFFFF;
+    padding-left: 33px;
+    .brandBlockContentZh{
+      position: absolute;
+      bottom: 15%;
+      font-size: 26px;
+      line-height: 38px;
+    }
+    .brandBlockContentEn{
+      margin-top: 15px;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+.brandMenu{
+  width: 100%;
+  position: relative;
+  margin-top: 5px;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+
+  .brandMenuContent{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 6px;
+    right: 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    .brandMenuContent1{
+      font-size: 24px;
+      font-weight: 300;
+    }
+    .brandMenuContent2{
+      font-size: 28px;
+      font-family: "HYQiHei-80S";
+    }
+  }
+  .brandMenuContentBt{
+    width: 100px;
+    height: 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 11px;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+}
+.brandMenu:nth-of-type(even){
+  .brandMenuContent{
+    background: rgba(0,0,0,0.2);
+  }
+}
+.myAnimated{
+  height:100px;
+  animation: bounceInUp 1s infinite cubic-bezier(0.1, 0.7, 1.0, 0.1)
+}
+@keyframes bounceInUp {
+  0% {
+
+    transform: translateY(130px);
+  }
+  60% {
+    transform: translateY(70px);
+  }
+  90% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: none;
+  }
+}

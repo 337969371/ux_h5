@@ -1,0 +1,83 @@
+.my{
+  background: #101150;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  .my-info{
+    .my-info-header{
+      padding: 30px 30px;
+      img{
+        width: 13px;
+      }
+    }
+    .my-info-title{
+      text-align: center;
+      padding-bottom: 70px;
+      font-size: 24px;
+      color: #D6FF7F;
+    }
+  }
+  .my-like-body{
+    flex: 1;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    .my-body-content{
+      padding: 20px 30px;
+    }
+    .my-like-item{
+      height: 70px;
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+      .left{
+        height: 100%;
+        width: 100px;
+        border-radius: 10px;
+        overflow: hidden;
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit:cover;
+        }
+      }
+      .right{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 5px;
+        h4{
+          font-size: 16px;
+          font-weight: bold;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+        .my-like-item-info{
+          display: flex;
+          font-size: 14px;
+          justify-content: space-between;
+          .time{
+            color: #CBCCD4;
+          }
+        }
+      }
+    }
+  }
+}
+.am-tabs-default-bar-bottom .am-tabs-default-bar-content, .am-tabs-default-bar-top .am-tabs-default-bar-content{
+  width: 100%;
+}
+
+@media(min-height:750px){
+  .my .my-body .my-body-content .my-menu{
+    padding-bottom: 20%;
+  }
+
+}

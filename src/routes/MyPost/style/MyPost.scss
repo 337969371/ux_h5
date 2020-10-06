@@ -1,0 +1,132 @@
+.my{
+  background: #101150;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  .my-info{
+    .my-info-header{
+      padding: 30px 30px;
+      img{
+        width: 13px;
+      }
+    }
+    .my-info-title{
+      text-align: center;
+      padding-bottom: 70px;
+      font-size: 24px;
+      color: #D6FF7F;
+    }
+  }
+  .my-like-body{
+    flex: 1;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    .my-body-content{
+      padding: 20px 30px;
+    }
+    .my-post-item{
+      height: 250px;
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+      }
+      .main{
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        color: #FFFFFF;
+        padding: 15px;
+        .body{
+          position: absolute;
+          bottom: 15px;
+          width: 100%;
+          left: 0;
+          padding: 0 15px;
+          .title{
+            font-size: 20px;
+          }
+          .time{
+            font-size: 14px;
+            margin-bottom: 20px;
+          }
+          .num{
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            .num-active{
+              display: flex;
+            }
+            .comment{
+              margin-left: 20px;
+            }
+            img{
+              margin-right: 5px;
+              width: 18px;
+              height: 18px;
+              margin-top: -5px;
+            }
+          }
+          .action{
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+
+        .like{
+          position: absolute;
+          right: 15px;
+          top:15px;
+          width: 18px;
+          height: 15px;
+        }
+      }
+    }
+  }
+}
+.am-tabs-default-bar-bottom .am-tabs-default-bar-content, .am-tabs-default-bar-top .am-tabs-default-bar-content{
+  width: 100%;
+}
+
+@media(min-height:750px){
+  .my .my-body .my-body-content .my-menu{
+    padding-bottom: 20%;
+  }
+
+}
+.am-tabs-default-bar-bottom .am-tabs-default-bar-content, .am-tabs-default-bar-top .am-tabs-default-bar-content{
+  width: 100%;
+}
+.am-modal-button-group-h:before{
+  background-color: #ffffff !important;
+}
+.am-modal-button-group-h .am-modal-button:last-child:before{
+  background-color: #ffffff !important;
+}
+.am-modal-transparent .am-modal-content{
+  border-radius: 7px;
+  padding: 30px 15px;
+}
+.am-modal-button-group-h{
+  justify-content: space-between;
+}
+.am-modal-alert-content, .am-modal-propmt-content{
+  padding-bottom: 15px;
+}
+.am-modal-button-group-v{
+  display: flex;
+  justify-content: center;
+}

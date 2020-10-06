@@ -1,0 +1,28 @@
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #0D1521;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  .header-left{
+    img{
+      width: 11px;
+    }
+  }
+  .header-title{
+    font-size: 16px;
+  }
+}
+.privacy-content{
+  padding: 60px 20px;
+  padding-bottom: 20px;
+}
+.privacy-btn{
+  text-align: center;
+  bottom: 30px;
+  width: 100%;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>连线ID. </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <link id="favicon" rel="shortcut icon" href="https://id-oss.vw.com.cn/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="https://id-oss.vw.com.cn/img/logo-icon.jpg">
+  <script src='https://res.wx.qq.com/open/js/jweixin-1.0.0.js'></script>
+  <script src="https://www.yunpian.com/static/official/js/libs/riddler-sdk-0.2.2.js"></script>
+<!--  <script src="./utils/share.js" type='text/javascript'></script>-->
+  <!-- GrowingIO Analytics code version 2.1 -->
+  <!-- Copyright 2015-2018 GrowingIO, Inc. More info available at http://www.growingio.com -->
+
+  <script type='text/javascript'>
+    !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.giocdn.com/2.1/gio.js","gio");
+    gio('init','b20224825fd0e9fa', {});
+    gio('send');
+
+    !function(n,e){function t(e,n){return function(){e.apply(n,1===arguments.length?[arguments[0]]:Array.apply(null,arguments))}}var s=n.gio?t(n.gio.q.unshift,n.gio.q):t(n._vds.push,n._vds),i="growingio-sdk";n[i]={pendingEvents:[]},s(["setListener",function(e){n[i]&&n[i].eventMessageQueue?n[i].eventMessageQueue.feed(e):n[i].pendingEvents.length<=200&&n[i].pendingEvents.push(e)}]);
+      var o=e.createElement("script"),r=e.getElementsByTagName("script");o.async=1,o.src=("https:"==e.location.protocol?"https://":"http://")+"assets.giocdn.com/sdk/marketing/1.1/h5.js";
+      var g=r[r.length-1];g.parentNode.insertBefore(o,g)}(window,document);
+
+  </script>
+
+  <!-- End GrowingIO Analytics code version: 2.1 -->
+
+  <script>
+    (function(a, e, f, g, b, c, d) {
+      a.ClickiTrackerName = b;
+      a[b] = a[b] || function() {(a[b].queue = a[b].queue || []).push(arguments)};
+      a[b].start = +new Date; c = e.createElement(f); d = e.getElementsByTagName(f)[0];
+      c.async = 1; c.src = g; d.parentNode.insertBefore(c, d)
+    })(window, document, 'script', '//stm-cdn.cn.miaozhen.com/clicki.min.js?v='+Math.round(new Date().getTime()/1000/300), 'stm_clicki');
+    stm_clicki('create', 'dc-3917', 'auto');
+
+    stm_clicki('require','heatmap', '//stm-cdn.cn.miaozhen.com/plugins/heatmap.js?v='+Math.round(new Date().getTime()/1000/1800));
+    stm_clicki('heatmap:on',5);
+  </script>
+  <script type="text/javascript">
+    function IsPC() {
+      let userAgentInfo = navigator.userAgent;
+      let Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+      let flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false;
+          break;
+        }
+      }
+      return flag;
+    }
+    let flag = IsPC();
+    if(flag){
+      window.location.href="/pc/"
+    }
+  </script>
+</head>
+<body>
+<div id="root"></div>
+</body>
+</html>

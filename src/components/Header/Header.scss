@@ -1,0 +1,41 @@
+.homeHeader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  z-index: 10;
+  .headerContent{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: flex-end;
+    padding: 0 30px;
+    .leftLogo{
+      img{
+        width: 37px;
+      }
+    }
+    .rightButton{
+      img{
+        width: 22px;
+      }
+    }
+  }
+  .headerBottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    div{
+      height: 2px;
+      background: #FFFFFF;
+      width: 40%;
+      margin-top: 12px;
+    }
+    img{
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

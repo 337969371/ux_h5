@@ -1,0 +1,25 @@
+.base-footer{
+  padding: 30px;
+  padding-top: 50px;
+  background: #ffffff;
+  a{
+    color: #001e50;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: VWHead-Light, HYQiHei-60S;
+  }
+  a:link, a:visited {
+    text-decoration: none;
+    outline: none;
+  }
+  .base-footer-menu{
+    border-top: 1px solid #011e50;
+    padding-top: 10px;
+    .base-footer-menu-item{
+      padding: 10px 0;
+    }
+  }
+  .base-footer-in-tray{
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,66 @@
+.tag-detail{
+  width: 100%;
+  background: #F5FAFF;
+  .tag-header{
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    .back-icon{
+      width: 11px;
+    }
+  }
+  .tag-head{
+    padding: 20px;
+    padding-top: 0;
+    background: #0D1521;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 374px;
+    color: #FFFFFF;
+    position: relative;
+    .tag-head-num{
+      text-align: right;
+      padding-top: 25px;
+      font-family: "HYQiHei-60S";
+      div{
+        padding-top: 15px;
+      }
+      p{
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .tag-head-info{
+      position: absolute;
+      bottom: 50px;
+      .tag-head-info-title{
+        font-size: 28px;
+      }
+      .tag-head-info-text{
+        font-size: 16px;
+      }
+    }
+  }
+  .tag-post-list{
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .tag-add-post{
+    position: fixed;
+    bottom: 20px;
+    display: inline-block;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    left: 50%;
+    margin-left: -30px;
+    img{
+      width: 100%;
+    }
+  }
+}

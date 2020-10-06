@@ -1,0 +1,47 @@
+.anthem-film{
+  background-image: url("../../static/anthemFilm/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  img{
+    width: 100%;
+  }
+  .content-1{
+    margin-top: 20%;
+  }
+  .content-2{
+    height: 250px;
+    width: auto;
+    margin: 50px 0;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    text-align: center;
+    .box{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      img{
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+  .content-2::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+  .content-4{
+    position: relative;
+    img{
+      width: 88%;
+      left: 6%;
+      top: 6%;
+      position: absolute;
+      z-index: 2;
+    }
+    video{
+      width: 88%;
+      margin-top: 6%;
+      margin-left: 6%;
+      opacity: 0;
+    }
+  }
+}

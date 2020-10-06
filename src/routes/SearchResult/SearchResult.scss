@@ -1,0 +1,74 @@
+.search-result{
+  .search-body {
+    padding: 0 28px;
+    padding-top: 25%;
+    .search-input {
+      height: 48px;
+      line-height: 48px;
+      border-radius: 24px;
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 50px;
+      background: #F2F2F9;
+      img {
+        padding-left: 20px
+      }
+      input {
+        width: 100%;
+        border: none;
+        padding: 0px 20px;
+        height: 28px;
+        line-height: 28px;
+        margin: 10px 0;
+        background: rgba(0,0,0,0);
+      }
+    }
+  }
+  .search-result-main{
+    margin-top: -30px;
+    margin-bottom: 60px;
+    .search-result-content{
+      padding: 20px 35px;
+    }
+    .search-result-item{
+      display: flex;
+      margin-bottom: 30px;
+      .result-img{
+        width: 100px;
+        height: 70px;
+        border-radius: 10px;
+        overflow: hidden;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit:cover;
+        }
+      }
+      .info{
+        width: 100%;
+        padding-left: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5px;
+        .title{
+          font-size:16px;
+          font-family: 'HYQiHei-80S';
+        }
+        .footer{
+          display: flex;
+          justify-content: space-between;
+          .name{
+            font-size: 14px;
+          }
+          .time{
+            font-size: 14px;
+            color: #CBCCD4;
+            font-family: 'VW_Head-Regular';
+          }
+        }
+      }
+    }
+  }
+}

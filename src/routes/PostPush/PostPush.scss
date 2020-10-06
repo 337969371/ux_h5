@@ -1,0 +1,181 @@
+.posh-push-header{
+  display: flex;
+  justify-content: space-between;
+  .header-left{
+    font-size:14px;
+    color: #101150;
+    padding: 20px;
+    font-family: "HYQiHei-60S";
+  }
+  .posh-push-submit{
+    width:80px;
+    height:26px;
+    line-height: 26px;
+    background:rgba(214,255,127,1);
+    text-align: center;
+    border-radius:20px;
+    font-size:14px;
+    color: #101150;
+    border: none;
+    margin: 20px;
+  }
+
+}
+.post-push-main{
+  padding: 0 20px 20px 20px;
+  .post-push-hint{
+    font-size: 13px;
+    color: #7C7C7C;
+    margin-bottom: 10px;
+    padding-left: 2px;
+  }
+  .post-push-title{
+    input{
+      border: none;
+      font-size: 16px;
+      padding: 10px 10px;
+      height: 42px;
+      line-height: 42px;
+      width: 100%;
+      border-radius:10px;
+      background: #F2F2F9;
+    }
+    ::-webkit-input-placeholder {
+      color: #7C7C7C;
+    }
+    :-moz-placeholder {/* Firefox 18- */
+      color: #7C7C7C;
+    }
+    ::-moz-placeholder{/* Firefox 19+ */
+      color: #7C7C7C;
+    }
+    :-ms-input-placeholder {
+      color: #7C7C7C;
+    }
+  }
+  .post-push-img-box{
+    background: #F2F2F9;
+    border-radius:10px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .post-push-content{
+    margin-top: 20px;
+    textarea{
+      width: 100%;
+      border: none;
+      padding: 10px 10px;
+      min-height: 120px;
+      background: #F2F2F9;
+      border-radius:10px;
+      font-size:14px;
+    }
+    ::-webkit-input-placeholder {
+      color: #AAAAAA;
+    }
+    :-moz-placeholder {/* Firefox 18- */
+      color: #AAAAAA;
+    }
+    ::-moz-placeholder{/* Firefox 19+ */
+      color: #AAAAAA;
+    }
+    :-ms-input-placeholder {
+      color: #AAAAAA;
+    }
+  }
+  .post-push-img-title{
+    color: #030303;
+    padding: 10px 10px;
+  }
+  .post-push-img{
+    overflow: hidden;
+    padding: 0 5px;
+    .post-push-img-item{
+      float: left;
+      margin: 5px;
+      background-color: #C7C7D4;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      border-radius: 5px;
+      .post-push-img-item-img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+      }
+      .post-push-img-item-close{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: rgba(0,0,0,.3);
+        padding: 3px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      }
+      .post-push-upload{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+      .post-push-upload-text{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        text-align: center;
+        img{
+          width: 21px;
+        }
+      }
+    }
+  }
+  .post-push-tags{
+    padding-top: 20px;
+    margin-left: 10px;
+    span{
+      display: inline-block;
+      background: #101150;
+      font-size: 15px;
+      color: #D6FF7F;
+      padding: 0 20px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 15px;
+    }
+  }
+}
+.post-push-upload-mark{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+
+}
+.post-footer-btn{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .post-footer-btn-push{
+    height: 48px;
+    width: 300px;
+    line-height: 48px;
+    border-radius: 24px;
+    background: #101150;
+    color: #D6FF7F;
+    font-size: 15px;
+    font-family: "HYQiHei-60S";
+    border: none;
+  }
+}

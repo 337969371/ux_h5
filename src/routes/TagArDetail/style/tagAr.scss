@@ -1,0 +1,72 @@
+.tag-ar-detail{
+  width: 100%;
+  background: #FFFFFF;
+  .tag-header{
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+    .back-icon{
+      width: 11px;
+    }
+  }
+  .tag-head{
+    color: #FFFFFF;
+    position: relative;
+    img{
+      width: 100%;
+    }
+    button{
+      position: absolute;
+      z-index: 5;
+      width: 10%;
+      height: 10%;
+      background: #0e80d2;
+      right: 17%;
+      bottom: 12%;
+      opacity: 0;
+    }
+  }
+  .tag-post-list{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    top: -20px;
+  }
+  .tag-add-post{
+    position: fixed;
+    bottom: 20px;
+    z-index: 2;
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    width: 160px;
+    text-align: center;
+    border-radius: 24px;
+    margin-left: -80px;
+    text-align: center;
+    left: 50%;
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 15px;
+    font-family: "HYQiHei-60S";
+    padding: 0 20px;
+  }
+}
+.tar-ar-help-text{
+  color: #000000;
+  text-align: left;
+  max-height: 500px;
+  .title{
+    font-family: "HYQiHei-60S";
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .desc{
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+}

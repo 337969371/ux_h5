@@ -1,0 +1,98 @@
+.search{
+  background-image: url("../../static/search/bg.png");
+  position: absolute;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 100%;
+  background-position-x: right;
+  .search-body{
+    padding: 0 28px;
+    padding-top: 30%;
+    .search-input{
+      height: 48px;
+      line-height: 48px;
+      background: #FFFFFF;
+      border-radius: 24px;
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 50px;
+      img{
+        padding-left:20px
+      }
+      input{
+        width: 100%;
+        border: none;
+        padding: 0px 20px;
+        height: 28px;
+        line-height: 28px;
+        margin: 10px 0;
+      }
+    }
+    .search-item{
+      color: #FFFFFF;
+      padding: 0 10px;
+      margin-top: 30px;
+      font-size: 16px;
+      .action{
+        display: flex;
+        justify-content: space-between;
+        //font-weight: 300;
+        font-family: "HYQiHei-80S";
+        .clean{
+          font-size: 15px;
+        }
+      }
+      .item{
+        overflow: hidden;
+        div{
+          margin-right: 20px;
+          float: left;
+          margin-bottom: 5px;
+          color: #FFFFFF;
+          text-decoration:none;
+        }
+      }
+    }
+  }
+  .footer-hint{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    .close{
+      position: absolute;
+      right: 17px;
+      top: 12px;
+      opacity: 1;
+    }
+    .f18{
+      font-size: 18px;
+      font-family: "HYQiHei-60S";
+      img{
+        height: 18px;
+        position: relative;
+        margin: 0 3px;
+        top: -2px;
+      }
+    }
+    .text{
+      padding-top: 5px;
+      img{
+        height: 14px;
+        margin: 0 5px;
+        position: relative;
+        top: -1px;
+      }
+    }
+  }
+}

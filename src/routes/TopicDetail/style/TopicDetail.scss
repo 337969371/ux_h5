@@ -1,0 +1,426 @@
+.topic-detail{
+  background-color: #F5FAFF;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+  background-size: 100%;
+  .topic-detail-header{
+    padding: 20px;
+    img{
+      width: 11px;
+    }
+  }
+  .topic-detail-middle{
+    padding: 20px 15px;
+    .topic-detail-title{
+      font-size: 20px;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 10px;
+      padding-top: 40px;
+      .topic-detail-title-info{
+        span{
+          font-family: VWHeadWeb-Bold;
+        }
+        img{
+          width: 32px;
+          height: 32px;
+          border-radius: 16px;
+          margin-right: 10px;
+          margin-top: -5px;
+        }
+      }
+      .topic-detail-help{
+        img{
+          width: 22px;
+          height: 22px;
+          border-radius: 11px;
+        }
+      }
+    }
+    .topic-detail-info{
+      background: #FFFFFF;
+      border-radius: 10px;
+      box-shadow: 0 3px 20px rgba(0,0,0,0.16);
+      padding: 20px 15px;
+      .topic-detail-info-h{
+        .title{
+          font-size: 16px;
+          font-family: "HYQiHei-60S";
+          padding-right: 10px;
+        }
+      }
+
+      .topic-detail-info-slider{
+        border-radius: 10px;
+        margin: 15px 0;
+        overflow: hidden;
+        .slick-dots{
+          right: 0;
+        }
+        .topic-detail-info-slider-img{
+          text-align: center;
+          width: 100%;
+          border-radius: 10px;
+          overflow: hidden;
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+
+      }
+      .topic-detail-info-h{
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        .topic-detail-attention-btn{
+          width: 100px;
+        }
+        .topic-detail-attention-btn-ed{
+          width: 100px;
+          opacity: 0.5;
+        }
+      }
+      .topic-detail-info-t{
+        font-size: 20px;
+        padding-bottom: 5px;
+        overflow: hidden;
+      }
+      .topic-detail-info-d{
+        font-size: 14px;
+        overflow: hidden;
+      }
+      .topic-detail-pk-img{
+        width: 100%;
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        justify-content: space-around;
+        div{
+          img{
+            width: 100%;
+          }
+        }
+        .topic-detail-pk-text{
+          font-size: 12px;
+          color: #282CC0;
+          font-family:"VWHeadWeb-Bold";
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding: 0 5px;
+        }
+      }
+      .topic-detail-pk-num{
+        background: #101150;
+        border-radius: 10px;
+        width: 100%;
+        height: 24px;
+        position: relative;
+        .slip{
+          background: #D6FF7F;
+          border-radius: 10px;
+          height: 24px;
+          float: right;
+        }
+        .left{
+          position: absolute;
+          left: 10px;
+          font-size: 12px;
+          color: #D6FF7F;
+          height: 100%;
+          line-height: 24px;
+          img{
+            width: 14px;
+            margin-top: -3px;
+            margin-right: 5px;
+          }
+        }
+        .right{
+          position: absolute;
+          right: 10px;
+          font-size: 12px;
+          color: #101150;
+          height: 100%;
+          line-height: 24px;
+          img{
+            width: 14px;
+            margin-top: -3px;
+            margin-left: 5px;
+          }
+        }
+      }
+      .topic-detail-content{
+        .title{
+          font-size: 16px;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          font-family: "HYQiHei-80S";
+        }
+        .text{
+          font-size: 14px;
+        }
+      }
+      .topic-detail-guest{
+        .title{
+          font-size: 16px;
+          padding-top: 20px;
+          font-family: "HYQiHei-80S";
+        }
+        .topic-detail-guest-body{
+          .topic-detail-guest-left{
+            display: flex;
+            margin-top: 15px;
+            .content{
+              padding-left: 10px;
+            }
+            .user-info{
+              margin-bottom: 10px;
+              .name{
+                font-family: "HYQiHei-80S";
+                margin-bottom: 0;
+                padding-top: 0;
+              }
+              .position{
+                font-size: 12px;
+              }
+            }
+          }
+          .topic-detail-guest-right{
+            margin-top: 15px;
+            display: flex;
+            .content{
+              padding-right: 10px;
+              .user-info{
+                margin-bottom: 10px;
+                .name{
+                  font-family: "HYQiHei-80S";
+                  text-align: right;
+                  margin-bottom: 0;
+                  padding-top: 0;
+                }
+                .position{
+                  font-size: 12px;
+                  text-align: right;
+                }
+              }
+            }
+          }
+          .topic-detail-guest-video{
+            margin: 15px -15px;
+            position: relative;
+            img{
+              width: 100%;
+            }
+            #kolVideo{
+              width: 100%;
+              //position: absolute;
+              //left: 0;
+              //z-index: -1;
+            }
+          }
+          .headerImg{
+            img{
+              width: 35px;
+              height: 35px;
+            }
+          }
+          .headerImg-hantao{
+            img{
+              width: 35px;
+              height: 35px;
+            }
+          }
+          .content{
+            .name{
+              font-size: 14px;
+              color: #000000;
+              padding-top: 5px;
+              margin-bottom: 10px;
+              span{
+                margin-left: 5px;
+                color: #CBCCD4;
+              }
+            }
+            .comment{
+              font-size: 14px;
+              color: #000000;
+              font-family: "HYQiHei-60S";
+            }
+          }
+        }
+      }
+    }
+  }
+  .topic-detail-comment{
+    margin: 0 15px;
+    .topic-detail-comment-head{
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      line-height: 30px;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      .topic-detail-comment-title{
+        font-size: 20px;
+        font-family: "HYQiHei-60S";
+      }
+      .topic-detail-comment-sort{
+        width: 18px;
+        margin-left: 4px;
+        margin-top: -2px;
+      }
+    }
+    .topic-detail-comment-main{
+      background: #FFFFFF;
+      border-radius: 10px;
+      box-shadow: 0 3px 20px rgba(0,0,0,0.16);
+      padding: 20px 15px;
+      .no-data{
+        text-align: center;
+        color: #666666;
+      }
+      .topic-detail-comment-item{
+        border-bottom: 1px solid #CBCCD4;
+        .user{
+          font-size: 14px;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          .user-box{
+            width: 32px;
+            height: 32px;
+            border-radius: 16px;
+            padding-top: 1px;
+            padding-left: 1px;
+            display: inline-block;
+            position: relative;
+            margin-right: 3px;
+            .post-comment-left-img-icon{
+              position: absolute;
+              width: 16px;
+              height: 16px;
+              border-radius: 8px;
+              right: -9px;
+              bottom: -3px;
+            }
+          }
+          img{
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            margin-right: 5px;
+          }
+        }
+        .img-item1{
+          padding: 10px 0;
+          width: 100%;
+          img{
+            width: 100%;
+            border-radius: 10px;
+            height: 173px;
+            object-fit: cover;
+          }
+        }
+        .img-item2{
+          padding: 10px 0;
+          width: 100%;
+          column-count: 2;
+          -webkit-column-count: 2;
+          -moz-column-count: 2;
+          -ms-column-count: 2;
+          -o-column-count: 2;
+          column-gap: 10px;
+          -webkit-column-gap: 10px;
+          -moz-column-gap: 10px;
+          -ms-column-gap: 10px;
+          -o-column-gap: 10px;
+          div{
+            box-sizing: border-box;
+            overflow: hidden;
+            margin: 5px;
+            height: 83px;
+            border-radius: 5px;
+            width: 100%;
+            float: left;
+            img{
+              height: 100%;
+              width: 100%;
+              object-fit:cover;
+            }
+          }
+        }
+        .img-item3{
+          padding: 10px 0;
+          width: 100%;
+          overflow: hidden;
+          div{
+            box-sizing: border-box;
+            overflow: hidden;
+            margin: 5px;
+            height: 55px;
+            border-radius: 5px;
+            float: left;
+            img{
+              height: 100%;
+              width: 100%;
+              object-fit:cover;
+            }
+          }
+        }
+        .text{
+          padding: 10px 0;
+        }
+        .comment-foot{
+          display: flex;
+          justify-content: space-between;
+          color: #CBCCD4;
+          padding-bottom: 10px;
+          img{
+            height: 16px;
+            margin-right: 8px;
+            margin-top: -3px;
+          }
+          span{
+            margin-left: 30px;
+          }
+        }
+      }
+      .topic-detail-comment-item:last-child{
+        border-bottom: none;
+      }
+    }
+  }
+  .topic-detail-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    button{
+      background: #101150;
+      font-size: 14px;
+      color: #D6FF7F;
+      box-shadow:0px 0px 40px rgba(87,122,147,0.15);
+      height: 30px;
+      line-height: 30px;
+      width: 101px;
+      border-radius: 30px;
+      border: none;
+    }
+  }
+}
+.topic-detail-help-text{
+  color: #000000;
+  text-align: left;
+  max-height: 500px;
+  .title{
+    font-family: "HYQiHei-60S";
+    padding: 5px 0;
+  }
+  .desc{
+    padding-bottom: 10px;
+  }
+}

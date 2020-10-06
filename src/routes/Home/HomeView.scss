@@ -1,0 +1,167 @@
+img{
+  padding: 0;
+  margin: 0;
+}
+.home{
+  width: 100%;
+  .more{
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 52px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+}
+.homeBlock{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+  .homeHeaderContent{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    color: #FFFFFF;
+    .homeBlockContentZh{
+      position: absolute;
+      bottom: 10%;
+      font-size: 26px;
+      line-height: 38px;
+      width: 100%;
+      text-align: center;
+      .homeMenuContentBt{
+        width: 100px;
+        height: 22px;
+        border: 1px solid #FFFFFF;
+        border-radius: 11px;
+        font-size: 12px;
+        display: inline-block;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        text-align: center;
+        font-family: "VWTextOffice-Bold";
+      }
+    }
+    .homeBlockContentEn{
+      margin-top: 15px;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+.homeMenu{
+  width: 100%;
+  position: relative;
+  margin-top: 5px;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+  .homeMenuContent{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 6px;
+    right: 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    .homeMenuContent1{
+      font-size: 24px;
+      font-weight: 300;
+      font-family: "HYQiHei-40S";
+    }
+    .homeMenuContent2{
+      font-size: 28px;
+      font-family: "HYQiHei-80S";
+      span{
+        font-family: "VWHeadWeb-Bold";
+        font-size: 30px;
+      }
+    }
+  }
+  .homeMenuContentBt{
+    width: 100px;
+    height: 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 11px;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-family: "VWTextOffice-Bold";
+  }
+}
+.homeMenu:nth-of-type(even){
+  .homeMenuContent{
+    background: rgba(0,0,0,0.2);
+  }
+}
+.myAnimated{
+  height:100px;
+  animation: bounceInUp 1s infinite cubic-bezier(0.1, 0.7, 1.0, 0.1)
+}
+@keyframes bounceInUp {
+  0% {
+
+    transform: translateY(130px);
+  }
+  60% {
+    transform: translateY(70px);
+  }
+  90% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.brand_zone_animate{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-left:0px solid #000000;
+  border-right:0px solid #000000;
+  animation: brand_zone_animate 2.2s infinite;
+  animation-iteration-count:1;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@keyframes brand_zone_animate {
+  0% {
+    border-top: 60px solid #000000;
+    border-bottom: 60px solid #000000;
+    border-left:100px solid #000000;
+    border-right:100px solid #000000;
+  }
+  40% {
+    border-top: 60px solid #000000;
+    border-bottom: 60px solid #000000;
+    border-left:100px solid #000000;
+    border-right:100px solid #000000;
+  }
+  100% {
+    border-top: 0px solid #000000;
+    border-bottom: 0px solid #000000;
+    border-left:0px solid #000000;
+    border-right:0px solid #000000;
+  }
+}

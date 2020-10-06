@@ -1,0 +1,60 @@
+
+.login-logo{
+  text-align: center;
+  height: 28%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+  img{
+    width: 64px;
+    height: 40px;
+  }
+}
+.login-content{
+  background: #FFFFFF;
+  width: 90%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  h4{
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    font-weight: 300;
+    padding: 30px 0;
+  }
+  .login-content-item{
+    margin-bottom: 20px;
+  }
+  .add-info-user-icon{
+    width: 17px;
+    height: 17px;
+  }
+  .add-info-email-icon{
+    height: 14px;
+    width: 18px;
+  }
+  .am-list-item{
+    background: #EBEBEB;
+    margin: 0 15px;
+    border-radius: 8px;
+    height: 48px;
+  }
+  .login-content-item-sms{
+    color: #000000;
+  }
+  .login-content-item-btn{
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 15%;
+  }
+}
+.add-info-sex{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  .am-checkbox{
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,32 @@
+.menu{
+  position: fixed;
+  bottom: 0px;
+  height: 72px;
+  width: 100%;
+  background: rgba(255,255,255,1);
+  z-index: 100;
+  border-top-left-radius: 33px;
+  border-top-right-radius: 33px;
+  left: 0;
+  padding: 0 15px;
+  ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 12px;
+    li{
+      text-align: center;
+      img{
+        height: 28px;
+        width: 28px;
+      }
+      span{
+        color: #212529;
+        display: block;
+        font-size: 14px;
+        transform:scale(0.8);
+        margin-top: 6px;
+      }
+    }
+  }
+}

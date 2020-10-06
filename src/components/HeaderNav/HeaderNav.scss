@@ -1,0 +1,30 @@
+.nav-header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  z-index: 10;
+  .nav-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: none;
+    .left{
+      padding: 10px 20px;
+      img{
+        width: 11px;
+      }
+    }
+    .centre{
+      padding: 10px 20px;
+    }
+    .right{
+      padding: 10px 20px;
+      img{
+        width: 22px;
+      }
+    }
+  }
+}

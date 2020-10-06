@@ -1,0 +1,85 @@
+.topic{
+  background: #FFFFFF;
+  width: 100%;
+  .topic-head{
+    padding: 20px;
+    img{
+      width: 11px;
+    }
+  }
+  .topic-title{
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 24px;
+  }
+  .topic-body{
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    .topic-item{
+      position: relative;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      .topic-item-background{
+        width: 100%;
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit:cover;
+        }
+      }
+      .topic-item-body{
+        background: rgba(0,0,0,0.1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #FFFFFF;
+        padding: 15px;
+        .topic-item-head{
+          display: flex;
+          justify-content: space-between;
+          .topic-item-user{
+            display: flex;
+            justify-content: left;
+            .topic-item-user-info{
+              font-size: 14px;
+              padding-left: 10px;
+              line-height: 17px;
+            }
+            img{
+              width: 34px;
+              height: 34px;
+              object-fit:cover;
+              border-radius: 17px;
+            }
+          }
+          .topic-item-num{
+            font-size: 14px;
+            img{
+              width: 13px;
+              margin-right: 4px;
+              margin-top: -2px;
+            }
+          }
+        }
+        .topic-item-title{
+          width: 100%;
+          font-size: 20px;
+          overflow: hidden;
+          position: absolute;
+          bottom: 25px;
+          font-family: "HYQiHei-60S";
+          .sub{
+            font-size: 16px;
+            font-family: "HYQiHei-40S";
+          }
+        }
+      }
+    }
+  }
+}

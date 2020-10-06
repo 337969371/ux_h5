@@ -1,0 +1,86 @@
+
+.login-logo{
+  text-align: center;
+  height: 28%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+  img{
+    width: 64px;
+    height: 40px;
+  }
+}
+.login-modal{
+  .am-modal-content{
+    background: none;
+  }
+}
+.login-body{
+  width: 100%;
+}
+.login-content{
+  background: #FFFFFF;
+  width: 90%;
+  margin-left: 5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  h4{
+    text-align: center;
+    font-size: 26px;
+    color: #000000;
+    font-weight: 300;
+    padding: 30px 0;
+  }
+  .login-content-item{
+    margin-bottom: 20px;
+  }
+  .am-list-item{
+    background: #EBEBEB;
+    margin: 0 15px;
+    border-radius: 8px;
+    height: 48px;
+  }
+  .login-content-item-sms{
+    color: #000000;
+  }
+  .login-content-item-agree{
+    display: flex;
+    padding: 0 15px;
+    .am-checkbox-agree .am-checkbox-inner{
+      left: 8px;
+    }
+  }
+  .login-content-agree{
+    color: #7C7C7C;
+    font-size: 12px;
+    padding-left: 8px;
+    text-align: left;
+  }
+  .login-content-item-btn{
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 15%;
+  }
+}
+.login-btn-big{
+  height: 48px;
+  width: 90%;
+  line-height: 48px;
+  border-radius: 24px;
+  font-size: 16px;
+  border: none;
+  background: #101150;
+  color: #D6FE7F;
+  letter-spacing:1px;
+  font-family: "HYQiHei-60S";
+}
+.am-checkbox-inner:after{
+  top: 3px;
+  right: 7px;
+}
+.am-checkbox.am-checkbox-checked .am-checkbox-inner{
+  background: #101150;
+  border-color: #101150;
+}
